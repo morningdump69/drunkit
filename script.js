@@ -23,7 +23,7 @@ document.addEventListener("keypress",(event)=>{
             clap.currentTime = 0
             clap.play()
         break
-        case hihat.code == "KeyD":
+        case event.code == "KeyD":
             
             hihat.pause()
             hihat.currentTime = 0
@@ -67,4 +67,6 @@ document.addEventListener("keypress",(event)=>{
         break
     }
 })
+
+
 
